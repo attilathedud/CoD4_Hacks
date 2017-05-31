@@ -81,7 +81,7 @@ includelib \masm32\lib\kernel32.lib
 		; Our draw_text codecave saves all registers, calls the engine's print_text
 		; routine, and then restores the original function. The print_text function prototype
 		; is:
-		; print_text( unknown, text, unknown, unknown, x, y, scale, RGBA, 3 )
+		; __fastcall void print_text(e34420h, char* text, 7fffffffh, *font, DWORD scale, DWORD x, DWORD y, RGBA colour, 3);
 		@draw_text:
 			pushad
 			
