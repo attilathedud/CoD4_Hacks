@@ -6,6 +6,4 @@ The hack was written in mASM and needs to be linked as a dll. To do this:
 \masm32\bin\Link /SUBSYSTEM:WINDOWS /DLL Nametag_Esp.obj
 ```
 
-![Hack Screenshot](screenshot.jpg?raw=true "Screenshot Hack")
-
 Originally written on 2009/09/23 by attilathedud.
