@@ -4,7 +4,7 @@ A collection of hacks for CoD4 v1.7
 
 ## Esp
 
-An ESP for COD4 that uses a hook in R_EndFrame and uses an external method of calculating 3D to 2D coordinates to display tags over all drawn entities.
+An ESP for COD4 that hooks R_EndFrame and uses an external method of calculating 3D to 2D coordinates to display tags over all drawn entities.
 
 ![Hack Screenshot](Esp/screenshot.jpg?raw=true "Screenshot Hack")
 
@@ -20,7 +20,7 @@ A POC that uses a hook in COD4's main game loop to call the internal print_text 
 
 ## Wallhack
 
-A POC that uses a hook in COD4's main game loop to call the internal print_text function and display the string "hello" on the screen.
+A memory wallhack that alters the render tag in code to display all entities with depth checks disabled.
 
 ![Hack Screenshot](Wallhack/screenshot.jpg?raw=true "Screenshot Hack")
 
